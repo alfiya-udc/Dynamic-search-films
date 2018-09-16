@@ -310,7 +310,7 @@ function searchForName() {
     let str = document.querySelector('.js-search-field').value;
 	let title;
 
-	if (str === '') return foundFilms; //чтобы лишний раз не ходить по циклу, если строка пустая
+	if (str === '') return films; //чтобы лишний раз не ходить по циклу, если строка пустая
 
 	foundFilms = [];
 
