@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+button {
+    padding: 0;
+}
+
+body {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding: 0;
+    font-display: fallback;
+}
+
+p, h2, h1, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+ul,li {
+    list-style: none;
+}

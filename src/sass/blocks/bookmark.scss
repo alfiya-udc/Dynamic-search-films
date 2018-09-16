@@ -1,0 +1,13 @@
+.bookmark {
+    background-image: url("./../img/starwhite.svg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    display: block;
+    cursor: pointer;
+    &--active {
+        background-image: url("./../img/starblack.svg");
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,25 @@
+.tags {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        border: 1px solid black;
+        text-align: center;
+        margin: 10px;
+        width: 100px;
+        cursor: pointer;
+        padding: 5px;
+
+        &--active {
+            background-color: lightblue;
+        }
+    }
+
+    /* &__link {
+        padding: 15px;
+    } */
+}

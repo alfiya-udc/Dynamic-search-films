@@ -1,0 +1,114 @@
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+button {
+  padding: 0; }
+
+body {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-display: fallback; }
+
+p, h2, h1, ul, li {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul, li {
+  list-style: none; }
+
+.container {
+  margin-bottom: 40px; }
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto; }
+  .search input {
+    padding: 10px;
+    width: 70%; }
+
+.bookmark {
+  background-image: url("./../img/starwhite.svg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  display: block;
+  cursor: pointer; }
+  .bookmark--active {
+    background-image: url("./../img/starblack.svg");
+    background-repeat: no-repeat; }
+
+.bookmarks {
+  display: none;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 70%; }
+
+.films {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 70%; }
+  .films__item {
+    display: flex;
+    border: 1px solid black; }
+  .films__name {
+    padding: 20px;
+    width: 90%; }
+  .films__bookmark {
+    width: 10%; }
+
+.headers-list {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 30px; }
+  .headers-list__item {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase; }
+    .headers-list__item--active {
+      background-color: lightgray; }
+
+.tags {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  /* &__link {
+        padding: 15px;
+    } */ }
+  .tags__item {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px; }
+    .tags__item--active {
+      background-color: lightblue; }
+
+.more-button {
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+  margin: 20px auto;
+  width: 200px;
+  display: block;
+  cursor: pointer; }

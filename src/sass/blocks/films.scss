@@ -1,0 +1,16 @@
+.films {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 70%;
+    &__item {
+        display: flex;        
+        border: 1px solid black;
+    }
+    &__name {
+        padding: 20px;
+        width: 90%;        
+    }
+    &__bookmark {
+        width: 10%;
+    }
+}

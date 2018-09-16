@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Searching films</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headers-list js-tabs">
+            <a class="headers-list__item headers-list__item--active js-tab-header" href="#">Фильмы</a>
+            <a class="headers-list__item js-tab-header js-bookmarks-header" href="#">Закладки</a>
+        </div>    
+        <form class="search js-search">
+            <input type="search" class="search-field js-search-field" placeholder="поиск">
+        </form>
+        <ul class="tags js-tags">
+        </ul>
+        <div class="js-tab-panel films js-films">
+            <ul class="films__list js-films-list">
+            </ul>
+            <button class="more-button js-btn">Показать ещё</button>
+        </div>
+        <div class="js-tab-panel bookmarks js-bookmarks">
+            <ul class="films__list js-bookmarks-list">
+            </ul>
+            <button class="more-button js-btn">Показать ещё</button>           
+        </div>        
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
