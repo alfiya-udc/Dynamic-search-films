@@ -2,7 +2,7 @@
 
 # For use:
 ### npm i
-### npm node server.js
+### node server.js
 
 Страница будет [здесь](http://127.0.0.1:8080)
 
